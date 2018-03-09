@@ -1,0 +1,33 @@
+header{
+	&.primary{
+		width: 100%;
+	    z-index: 100;
+	    position: relative;
+
+	    nav{
+	    	&.secondary{
+	    		border-top: 10px solid #b71f37;
+			    background-color: #890a27;
+			    color: #b71f37;
+			    padding: .875rem 0;
+			    font-size: .875rem;
+			    font-weight: 700;
+			    .container{
+				    padding-top: .25rem;
+	    			padding-bottom: .25rem;
+			    }
+	    	}
+	    }
+	}
+}
+
+$width-name: min-width;
+$target-width: 1366px;
+
+@media ($width-name : $target-width) {
+	.row{
+		margin-right: -35px;
+    	margin-left: -35px;
+	}
+  
+}

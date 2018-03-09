@@ -1,0 +1,21 @@
+header.primary {
+  width: 100%;
+  z-index: 100;
+  position: relative; }
+  header.primary nav.secondary {
+    border-top: 10px solid #b71f37;
+    background-color: #890a27;
+    color: #b71f37;
+    padding: .875rem 0;
+    font-size: .875rem;
+    font-weight: 700; }
+    header.primary nav.secondary .container {
+      padding-top: .25rem;
+      padding-bottom: .25rem; }
+
+@media (min-width: 1366px) {
+  .row {
+    margin-right: -35px;
+    margin-left: -35px; } }
+
+/*# sourceMappingURL=mystyle.css.map */
